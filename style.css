@@ -1,0 +1,112 @@
+
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #af3636;
+    color: #333;
+}
+
+
+header {
+    background-color: #fefefe;
+    color: rgb(174, 30, 30);
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    margin: 0;
+    font-family: "Bungee Tint", sans-serif;
+
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 50%;
+    height: 5%;
+    display:block;
+    margin: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #faa6a9;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a {
+    color: #ba1818;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e34d4d;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ff5a5f;
+}
+
+footer a:hover {
+    color: #fff;
+}
